@@ -1,0 +1,129 @@
+[
+    {
+        "name": "Pikachu",
+        "type": "Electric",
+        "level": 25,
+        "weightkg": 6.0,
+        "isshiny": false,
+        "helditem": null,
+        "skills": [
+            "Thunder Shock",
+            "Quick Attack",
+            "Thunderbolt",
+            "Iron Tail"
+        ],
+        "stats": {
+            "hp": 35,
+            "attack": 55,
+            "defense": 40
+        }
+    },
+    {
+        "name": "Charmander",
+        "type": "Fire",
+        "level": 12,
+        "weightkg": 8.5,
+        "isshiny": false,
+        "helditem": "Charcoal",
+        "skills": [
+            "Scratch",
+            "Ember",
+            "Smokescreen"
+        ],
+        "stats": {
+            "hp": 39,
+            "attack": 52,
+            "defense": 43
+        }
+    },
+    {
+        "name": "Bulbasaur",
+        "type": "Grass",
+        "level": 10,
+        "weightkg": 6.9,
+        "isshiny": false,
+        "helditem": null,
+        "skills": [
+            "Tackle",
+            "Vine Whip",
+            "Growl"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 49,
+            "defense": 49
+        }
+    },
+    {
+        "name": "Squirtle",
+        "type": "Water",
+        "level": 10,
+        "weightkg": 9.0,
+        "isshiny": true,
+        "helditem": "Mystic Water",
+        "skills": [
+            "Tackle",
+            "Water Gun",
+            "Tail Whip"
+        ],
+        "stats": {
+            "hp": 44,
+            "attack": 48,
+            "defense": 65
+        }
+    },
+    {
+        "name": "Eevee",
+        "type": "Normal",
+        "level": 18,
+        "weightkg": 6.5,
+        "isshiny": false,
+        "helditem": null,
+        "skills": [
+            "Quick Attack",
+            "Sand Attack",
+            "Swift"
+        ],
+        "stats": {
+            "hp": 55,
+            "attack": 55,
+            "defense": 50
+        }
+    },
+    {
+        "name": "Oddish",
+        "type": "Grass",
+        "level": 8,
+        "weight_kg": 5.4,
+        "is_shiny": false,
+        "held_item": "Miracle Seed",
+        "skills": [
+            "Absorb",
+            "Sweet Scent"
+        ],
+        "stats": {
+            "hp": 45,
+            "attack": 50,
+            "defense": 55
+        }
+    },
+    {
+        "name": "Gengar",
+        "type": "Ghost",
+        "level": 45,
+        "weight_kg": 40.5,
+        "is_shiny": false,
+        "held_item": "Spell Tag",
+        "skills": [
+            "Shadow Ball",
+            "Hypnosis",
+            "Dream Eater",
+            "Dark Pulse"
+        ],
+        "stats": {
+            "hp": 60,
+            "attack": 65,
+            "defense": 60
+        }
+    }
+]
