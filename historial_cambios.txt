@@ -1,0 +1,7 @@
+Commit cfba341 - "Add DUAD structure and past exercises from IT Essentials to Python Basic"
+What changed: Added the DUAD folder with IT_Essentials, Programming_Logic, and Python_Basic subfolders, and copied all past exercises into organized module directories.
+Why: To organize my past course exercises clearly and meet the requirement to upload them to the Lyfter GitHub repository.
+
+Commit ed50bbe - "Initial commit"
+What changed: Created the initial repository structure and added the first README and base files.
+Why: To set up the main project repository that I will use during the Lyfter program.
