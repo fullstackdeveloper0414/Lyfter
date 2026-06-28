@@ -1,0 +1,58 @@
+Student Control System
+Jaime C Smith
+06/25/2026
+
+Requirements and Usage
+
+Python Version
+- This program was developed and tested with Python 3.11.
+- It should work with any modern Python 3 version (3.9 or later).
+
+Dependencies
+- No external libraries are required.
+- The program uses only the Python standard library:
+  - csv
+  - os
+  - datetime
+  - typing
+
+Files and Structure
+- Main Python modules:
+  - main.py       -> program entry point
+  - menu.py       -> menu and option handling
+  - actions.py    -> student actions (add, view, delete, failing, averages)
+  - data.py       -> CSV export and import
+  - config.py     -> shared configuration constants
+  - logger.py     -> simple logging utilities
+- Data and log files:
+  - students_data.csv  -> CSV file created when exporting student data
+  - students_system.log -> log file with events and error messages
+
+How to Run
+1. Open a terminal in the project folder (for example, Student_Control_System).
+2. Run the program with:
+   python main.py
+
+User Interface
+- The program uses a command-line interface based on:
+  - print() for messages
+  - input() for user input
+- The main menu allows you to:
+  1. Add students
+  2. View all students
+  3. View top 3 students by average grade
+  4. View overall average grade (all students)
+  5. Export students to CSV
+  6. Import students from CSV
+  7. Delete a student (name + section)
+  8. View failing students
+  9. Exit
+  H. Help (show menu descriptions)
+
+Notes
+- When importing from CSV, you can choose to:
+  - Overwrite current students with CSV data.
+  - Append CSV data to current students (duplicates are skipped).
+- Before exiting, the program warns you if there are unsaved changes
+  and offers to export to CSV.
+- All user messages and code identifiers are written in English.
